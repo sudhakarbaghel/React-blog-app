@@ -1,0 +1,66 @@
+.login{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+    background-color: #a3b3ad;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    
+
+}
+
+.loginTitle{
+    font-size: 50px;
+
+
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  
+
+
+}
+.loginForm>label{
+
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border:none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border:none;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.loginButton:disabled{
+    cursor:not-allowed;
+    background-color:  rgb(240, 164, 164);
+
+
+
+}
+
+.loginRegisterButton{
+    position:absolute;
+    top: 60px;
+    right:20px;
+    background-color: teal;
+    cursor:pointer;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
